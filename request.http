@@ -1,0 +1,33 @@
+POST http://localhost:4000/products
+content-type: application/json
+
+{
+
+    "name": "Caderno 100 folhas",
+    "price": 2.50
+
+}
+
+###
+
+GET http://localhost:4000/products
+
+###
+
+GET http://localhost:4000/products/
+
+###
+
+PUT http://localhost:4000/products/
+content-type: application/json
+
+{
+
+    "name": "Caneta Lilás",
+    "price": 3.50
+
+}
+
+###
+
+DELETE http://localhost:4000/products/
